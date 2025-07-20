@@ -36,7 +36,7 @@ int main() {
     int unsorted[MAX], temp[MAX], n;
     FILE *fp;
 
-    printf("Enter number of elements to generate in file: ");
+    printf("Enter number of elements in file: ");
     scanf("%d", &n);
 
     fp = fopen("numbers.txt", "w");
